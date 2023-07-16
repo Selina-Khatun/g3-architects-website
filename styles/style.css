@@ -52,8 +52,6 @@ nav li a {
 
 .banner-title {
     font-size: 3rem;
-
-
 }
 
 .description {
@@ -162,10 +160,11 @@ nav li a {
     border-radius: 7px;
     position: relative;
     bottom: 80px;
-   right: 60px;
+    right: 60px;
 }
-.Experience h2{
-   font-size: 3rem;
+
+.Experience h2 {
+    font-size: 3rem;
 }
 
 
@@ -195,7 +194,8 @@ nav li a {
     }
 
     nav,
-    .quick-features-container {
+    .quick-features-container,
+    .features-container {
         flex-direction: column;
         /* gap: 40px; */
 
@@ -205,10 +205,23 @@ nav li a {
         grid-template-columns: 1fr;
     }
 
+    .features-img img {
+        width: 100%;
+    }
+
+    .Experience {
+        position: static;
+        width: 220px;
+    }
+
 }
 
+
 @media screen and (max-width:960px) {
-    nav {
+
+    nav,
+    .quick-features-container,
+    .features-container {
         flex-direction: column;
         gap: 40px;
 
