@@ -2,12 +2,13 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Work Sans', sans-serif;
+
 }
 
 .section-title {
     font-size: 1.8rem;
     color: #131313;
-   font-weight: 700;
+    font-weight: 700;
 }
 
 
@@ -59,6 +60,8 @@ nav li a {
     font-size: 0.7rem;
     padding: 20px 0px;
     color: #727272;
+    line-height: 1.2rem;
+
 }
 
 .btn-primary {
@@ -109,6 +112,63 @@ nav li a {
     color: #FF900E;
 }
 
+/*   features section styles   */
+.features-container {
+    display: flex;
+    width: 75%;
+    margin: 0px auto;
+    gap: 100px;
+    /* align-items: center; */
+}
+
+.features {
+    margin-top: 20px;
+}
+
+.features .section-title {
+    border-left: 4px solid #FF900E;
+    padding-left: 20px;
+}
+
+.card {
+    background-color: #FFF;
+    border-radius: 7px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 18px 18px 10px 18px;
+    margin: 15px auto;
+}
+
+.card h3 {
+    color: #131313;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.card p {
+    padding: 8px 0px;
+
+}
+
+.features-img img {
+    width: 500px;
+}
+
+.Experience {
+    background-color: #FF900E;
+    width: 50%;
+    color: #FFF;
+    text-align: center;
+    padding: 30px 0px;
+    border-radius: 7px;
+    position: relative;
+    bottom: 80px;
+   right: 60px;
+}
+.Experience h2{
+   font-size: 3rem;
+}
+
+
 
 
 
@@ -140,8 +200,9 @@ nav li a {
         /* gap: 40px; */
 
     }
-    .quick-img-container{
-grid-template-columns: 1fr;
+
+    .quick-img-container {
+        grid-template-columns: 1fr;
     }
 
 }
